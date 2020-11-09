@@ -1,0 +1,22 @@
+//* TELLS TYPSCRIPT HOW DEV WANTS TO BUILD OR RUN FILES
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "target": "es5",
+      "allowSyntheticDefaultImports": true,
+      "lib": [
+          "es2017"
+      ],
+      "types": [
+          "node", "express"
+      ]
+    },
+    "include": [
+        "src/server/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+  }

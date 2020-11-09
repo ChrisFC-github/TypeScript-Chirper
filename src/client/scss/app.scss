@@ -1,0 +1,16 @@
+//* This example would override the primary and secondary themes across all of Bootstrap to use those custom colors. So any usage like text-primary, bg-primary, etc will use the color #0091ea (Covalence blue)!
+//$theme-colors: (
+//    "primary": #0091ea,
+//    "secondary": #ec407a
+//);
+
+body {
+    background: rgb(248, 248, 248);
+    color: rgb(44, 44, 44);
+}
+
+.delete-icon, .edit-icon {
+    cursor: pointer;
+}
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
